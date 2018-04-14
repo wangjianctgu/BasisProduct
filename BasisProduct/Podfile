@@ -1,0 +1,65 @@
+# Uncomment the next line to define a global platform for your project
+
+platform :ios, '8.0'
+
+target 'Product' do
+  
+  pod 'AFNetworking', '~> 3.1.0' # 网络请求
+
+pod 'MBProgressHUD', '~> 1.0.0' # 提示
+
+pod 'SDWebImage','~> 4.0.0' #图片下载
+
+pod 'IQKeyboardManager','~> 4.0.9' #键盘
+
+pod 'MJRefresh','~> 3.1.12' # 刷新控件
+
+pod 'YYModel','~> 1.0.4' # Dic 转 model
+
+pod 'MJExtension', '~> 3.0.13'
+
+pod 'KLCPopup','~> 1.0' #滑动动画
+
+pod 'TZImagePickerController', '~> 1.8.8'  # 选择照片
+
+pod 'JQFMDB','~> 1.1.6' #封装的 FMDB
+
+pod 'Masonry', '~> 1.0.2'
+
+pod 'WMPageController','~> 2.2.1' #左右侧滑换 Controller
+
+pod 'pop', '~> 1.0.9' # 动画
+
+pod 'ReactiveObjC', '~> 2.1.2'
+
+pod 'UITableView+FDTemplateLayoutCell', '~> 1.6'
+
+pod 'PYSearch', '~> 0.7.5'  # 搜索框
+
+pod 'CYLTabBarController', '~> 1.13.1'
+
+pod 'PYPhotoBrowser', '~> 1.5.1'  # 图片预览
+
+pod 'ZXingObjC', '~> 3.2.1'    #QR code
+
+pod 'DOPDropDownMenu-Enhanced' # 筛选
+
+pod 'LBXAlertAction', '1.0.3'
+
+pod 'ZYCornerRadius', '~> 1.0.2'
+
+pod 'XHLaunchAd', '~> 3.5.6'
+
+pod 'RongCloudIM', '~> 2.8.16' # 融云
+
+
+#---------------------------------------#
+
+#抽屉
+# pod 'MMDrawerController', '~> 0.6.0'
+#折线图饼状图
+#pod 'JHChart', '~> 1.1.0'
+
+#搜索页面
+
+end
